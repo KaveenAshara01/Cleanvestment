@@ -1,0 +1,22 @@
+:root {
+  /* Colors */
+  --primary: #DAA520; /* Gold */
+  --primary-hover: #B8860B;
+  --secondary: #222222; /* Near Black */
+  --text-main: #737373; /* Gray from reference */
+  --text-heading: #1a1a1a;
+  --bg-white: #ffffff;
+  --bg-light: #f9f9f9;
+  --border: #e0e0e0;
+  
+  /* Typography */
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Heebo', sans-serif;
+  
+  /* Transitions */
+  --transition: all 0.3s ease;
+  
+  /* Spacing */
+  --section-padding: 80px 0;
+  --container-width: 1200px;
+}
