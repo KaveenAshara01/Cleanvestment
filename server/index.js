@@ -17,6 +17,9 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/cleanvest
     .catch(err => console.log('MongoDB connection error:', err));
 
 // API Routes
+app.use('/api/bookings', require('./routes/bookings'));
+app.use('/api/contacts', require('./routes/contacts'));
+
 app.get('/api/health', (req, res) => {
     res.json({ status: 'OK', message: 'Cleanvestment API is running' });
 });
