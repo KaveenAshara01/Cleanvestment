@@ -16,7 +16,7 @@ const About = () => {
                 <div className="container">
                     <div className="about-grid">
                         <div className="about-image">
-                            <img src="https://images.unsplash.com/photo-1556911220-e1520638e8ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cleanvestment Team" />
+                            <img src="/about.png" alt="Cleanvestment Team" />
                         </div>
                         <div className="about-text">
                             <h2>Our <span>Mission</span></h2>
