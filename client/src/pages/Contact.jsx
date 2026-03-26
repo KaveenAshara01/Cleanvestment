@@ -42,14 +42,18 @@ const Contact = () => {
                             <i className="fas fa-phone"></i>
                             <div>
                                 <h3>Call Us</h3>
-                                <p>+44 123 456 7890</p>
+                                <a href="https://wa.me/447917708880" target="_blank" rel="noopener noreferrer" style={{ color: "inherit", textDecoration: "none" }}>
+                                    <p>+44 7917 708880</p>
+                                </a>
                             </div>
                         </div>
                         <div className="info-item">
                             <i className="fas fa-envelope"></i>
                             <div>
                                 <h3>Email Us</h3>
-                                <p>info@cleanvestment.co.uk</p>
+                                <a href="mailto:info@cleanvestment.co.uk" style={{ color: "inherit", textDecoration: "none" }}>
+                                    <p>info@cleanvestment.co.uk</p>
+                                </a>
                             </div>
                         </div>
                         <div className="info-item">

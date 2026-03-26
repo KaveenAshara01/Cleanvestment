@@ -44,8 +44,8 @@ const Footer = () => {
                     <div className="footer-contact">
                         <h3>Contact Info</h3>
                         <ul className="contact-list">
-                            <li><i className="fas fa-phone"></i> +44 123 456 7890</li>
-                            <li><i className="fas fa-envelope"></i> info@cleanvestment.co.uk</li>
+                            <li><i className="fas fa-phone"></i> <a href="https://wa.me/447917708880" target="_blank" rel="noopener noreferrer" style={{ color: "inherit", textDecoration: "none" }}>+44 7917 708880</a></li>
+                            <li><i className="fas fa-envelope"></i> <a href="mailto:info@cleanvestment.co.uk" style={{ color: "inherit", textDecoration: "none" }}>info@cleanvestment.co.uk</a></li>
                             <li><i className="fas fa-clock"></i> Mon-Sun: 7am - 11pm</li>
                         </ul>
                     </div>
