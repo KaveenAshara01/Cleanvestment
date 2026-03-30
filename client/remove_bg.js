@@ -2,10 +2,10 @@ const Jimp = require('jimp');
 
 async function removeWhiteBackground() {
   try {
-    const image = await Jimp.read('public/cleanvestment logo.png');
+    const image = await Jimp.read('public/cleanvestment logo.jpeg');
     
     const targetColor = { r: 255, g: 255, b: 255 };
-    const tolerance = 15; // To catch off-whites and anti-aliasing artifacts
+    const tolerance = 40; // Increased tolerance for JPEG artifacts
 
     image.scan(0, 0, image.bitmap.width, image.bitmap.height, function (x, y, idx) {
       const r = this.bitmap.data[idx + 0];
