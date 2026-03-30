@@ -24,8 +24,9 @@
     margin-bottom: 20px;
 }
 
-.footer-logo span {
-    color: var(--bg-white) !important;
+.footer-logo img {
+    height: 95px;
+    object-fit: contain;
 }
 
 .footer-about p {

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.png';
 import './Footer.css';
 
 const Footer = () => {
@@ -10,8 +9,7 @@ const Footer = () => {
                 <div className="footer-grid">
                     <div className="footer-about">
                         <Link to="/" className="logo footer-logo">
-                            <img src={logo} alt="Cleanvestment Logo" />
-                            <span>Cleanvestment</span>
+                            <img src="/cleanvestment_logo_transparent.png" alt="Cleanvestment Logo" />
                         </Link>
                         <p>Luxury cleaning services tailored to your needs. We provide high-end residential and commercial cleaning with a focus on quality and trust.</p>
                         <div className="social-links">

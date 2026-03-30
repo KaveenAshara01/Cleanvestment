@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.png';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -19,8 +18,7 @@ const Navbar = () => {
         <nav className={`navbar ${isSticky ? 'sticky' : ''}`}>
             <div className="container nav-content">
                 <Link to="/" className="logo">
-                    <img src={logo} alt="Cleanvestment Logo" />
-                    <span>Cleanvestment</span>
+                    <img src="/cleanvestment_logo_transparent.png" alt="Cleanvestment Logo" />
                 </Link>
 
                 <ul className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
