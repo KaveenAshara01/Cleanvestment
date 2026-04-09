@@ -3,8 +3,6 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
-import Contact from './pages/Contact';
-import Booking from './pages/Booking';
 import CommercialCleaning from './pages/CommercialCleaning';
 import ResidentialCleaning from './pages/ResidentialCleaning';
 import DeepClean from './pages/DeepClean';
@@ -20,8 +18,6 @@ function App() {
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/about" element={<About />} />
-                        <Route path="/contact" element={<Contact />} />
-                        <Route path="/booking" element={<Booking />} />
                         <Route path="/admin" element={<AdminDashboard />} />
                         <Route path="/services/commercial" element={<CommercialCleaning />} />
                         <Route path="/services/residential" element={<ResidentialCleaning />} />

@@ -49,7 +49,7 @@ const DeepClean = () => {
                             </div>
                         </div>
 
-                        <Link to="/booking" className="btn btn-primary">Book This Service</Link>
+                        <a href="https://cleanvestment.bookingkoala.com/booknow" className="btn btn-primary">Book This Service</a>
                     </div>
                 </div>
             </section>

@@ -112,7 +112,7 @@ const Home = () => {
                 <div className="container text-center">
                     <h2>Ready to Experience <span>Standard Cleanliness?</span></h2>
                     <p>Book your professional cleaning service today and enjoy a pristine environment.</p>
-                    <a href="/booking" className="btn btn-primary">Get a Free Quote Now</a>
+                    <a href="https://cleanvestment.bookingkoala.com/booknow" className="btn btn-primary">Get a Free Quote Now</a>
                 </div>
             </section>
         </div>

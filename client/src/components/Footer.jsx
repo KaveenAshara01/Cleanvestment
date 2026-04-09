@@ -24,8 +24,8 @@ const Footer = () => {
                         <ul>
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/about">About Us</Link></li>
-                            <li><Link to="/contact">Contact Us</Link></li>
-                            <li><Link to="/booking">Book Now</Link></li>
+                            <li><a href="https://cleanvestment.bookingkoala.com/contact-us">Contact Us</a></li>
+                            <li><a href="https://cleanvestment.bookingkoala.com/booknow">Book Now</a></li>
                         </ul>
                     </div>
 

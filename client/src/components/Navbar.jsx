@@ -33,8 +33,8 @@ const Navbar = () => {
                             <li><Link to="/services/airbnb" onClick={() => setIsMenuOpen(false)}>Airbnb Clean</Link></li>
                         </ul>
                     </li>
-                    <li><Link to="/contact" onClick={() => setIsMenuOpen(false)}>Contact Us</Link></li>
-                    <li><Link to="/booking" className="btn btn-primary" onClick={() => setIsMenuOpen(false)}>Book Now</Link></li>
+                    <li><a href="https://cleanvestment.bookingkoala.com/contact-us" onClick={() => setIsMenuOpen(false)}>Contact Us</a></li>
+                    <li><a href="https://cleanvestment.bookingkoala.com/booknow" className="btn btn-primary" onClick={() => setIsMenuOpen(false)}>Book Now</a></li>
                 </ul>
 
                 <div className="menu-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>

@@ -10,7 +10,7 @@ const Hero = () => {
                 <h1>Luxury Cleaning, <br /><span>Tailored to You</span></h1>
                 <p>Premium cleaning services for high-end residential and commercial spaces. Experience the pinnacle of cleanliness and professional care.</p>
                 <div className="hero-btns">
-                    <Link to="/booking" className="btn btn-primary">Book a Service</Link>
+                    <a href="https://cleanvestment.bookingkoala.com/booknow" className="btn btn-primary">Book a Service</a>
                     <Link to="/services/commercial" className="btn btn-secondary">Our Services</Link>
                 </div>
             </div>
